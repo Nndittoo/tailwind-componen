@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Almendra+SC&family=Comfortaa:wght@700&family=Kaushan+Script&family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 * {
     margin: 0;
@@ -6,19 +7,25 @@
     box-sizing: border-box;
     font-style: none;
     transition: .3s ease;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Comic Neue", cursive;
     font-optical-sizing: auto;
 }
 
 .lea {
-    text-shadow: 4px 5px 5px black;
-    font-family: "Kaushan Script", cursive;
     font-weight: 400;
     font-size: 30px;
+    box-shadow: 2px 3px 0px 2px;
+    font-family: "Agbalumo", system-ui;
+    font-style: italic;
+    border-radius: 15px;
+    border-right: solid 1px;
+    border-bottom: solid 1px;
+    padding: 10px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #674188;
     font-style: none;
     text-decoration: dashed;
+    background-color: #FFFBF5;
 }
 
 .woi .navbar-toggler {
@@ -116,7 +123,7 @@ section {
 }
 
 #home {
-    background: linear-gradient(to right, #FFFFFF, #333333);
+    background: #FFFBF5;
 
 }
 
@@ -142,7 +149,7 @@ section {
 
 .seratus {
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #F7EFE5;
     padding: 20px;
 }
 
@@ -164,7 +171,7 @@ section {
 
 .de h6 {
     font-family: "Agbalumo", system-ui;
-    color: #ffffffac;
+    color: #674188;
 }
 
 .potoA img {
@@ -182,7 +189,7 @@ section {
 
 .potoA span {
     font-size: 14px;
-    color: #ffffffac;
+    color: #674188;
 }
 
 .potoApps {
@@ -198,18 +205,24 @@ section {
     justify-content: start;
     flex-direction: column;
     margin: 40px 0px;
-    color: #fff;
+    color: #674188;
 }
 
-.two h3 {
-    border-bottom: solid 1px rgba(255, 255, 255, 0.555);
-    text-align: center;
-    padding-bottom: 10px;
+.email h3 {
+    font-size: 35px;
     font-family: "Agbalumo", system-ui;
 }
 
+.two h3 {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.247);
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: "Agbalumo", system-ui;
+    color: #674188;
+}
+
 .ema {
-    color: rgba(255, 255, 255, 0.527);
+    color: #C3ACD0;
 }
 
 .info {
@@ -222,22 +235,23 @@ section {
     font-size: 18px;
     padding-bottom: 15px;
     margin-bottom: 20px;
+    color: #674188;
     width: 50%;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.555);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.247);
 }
 
 .aboutText {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    color: #ffffffbc;
+    color: #674188;
 }
 
 .buaton {
     margin-top: 20px;
     width: 40%;
     height: 40px;
-    background-color: rgb(98, 0, 255);
+    background-color: #674188;
     color: white;
     border-radius: 15px;
     border: none;
@@ -251,13 +265,15 @@ section {
 
 .buaton:hover,
 .buttton:hover {
-    background-color: rgb(68, 0, 255);
+    background-color: #FFFBF5;
+    color: #674188;
     transform: scale(1.05);
 }
 
 .putih {
     width: 100%;
-
+    height: 100%;
+    background-color: #C3ACD0;
 }
 
 .con {
@@ -296,10 +312,19 @@ section {
 
 
 .nav-item a:hover {
-    color: #6a00ff;
-    border-bottom: solid 1px;
-    width: max-content;
-    padding-bottom: 5px;
+    color: #F7EFE5;
+    background-color: #6a00ff;
+}
+
+.nav-item a {
+    color: #674188;
+    padding: 10px;
+    transition: .3s ease;
+    border-radius: 20px;
+    width: 150px;
+    padding-inline-start: 5px;
+    background-color: #F7EFE5;
+    margin-bottom: 10px;
 }
 
 .urmulir {
@@ -309,6 +334,11 @@ section {
 
 .urmulir input {
     margin-bottom: 15px;
+}
+
+input,
+textarea {
+    background-color: #F7EFE5;
 }
 
 /* Mempercantik input text */
@@ -337,7 +367,7 @@ input[type="password"]:hover,
 input[type="number"]:hover,
 textarea:hover,
 select:hover {
-    border-color: #aaa;
+    border-color: #FFFBF5;
     /* Atur warna border saat hover */
 }
 
@@ -348,12 +378,16 @@ input[type="password"]:focus,
 input[type="number"]:focus,
 textarea:focus,
 select:focus {
-    border-color: #4d90fe;
+    border-color: #FFFBF5;
     /* Atur warna border saat focus */
     outline: 0;
     /* Hilangkan outline */
-    box-shadow: 0 0 5px rgba(77, 144, 254, 0.5);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     /* Atur efek bayangan saat focus */
+}
+
+.offcanvas {
+    background-color: #000000;
 }
 
 .buttton {
@@ -362,6 +396,38 @@ select:focus {
     border-radius: 15px;
     border: none;
     margin-top: 30px;
-    color: #fff;
-    background-color: #6a00ff;
+    color: #674188;
+    background-color: #FFFBF5;
+}
+
+
+svg text {
+
+    font-family: "Agbalumo", system-ui;
+    letter-spacing: 1px;
+    stroke: #000000d2;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: .5;
+    animation: textAnimate 4s infinite alternate;
+
+}
+
+@keyframes textAnimate {
+    0% {
+        stroke-dasharray: 0 10%;
+        stroke-dashoffset: 5%;
+        fill: #674188
+    }
+
+    100% {
+        stroke-dasharray: 50% 0;
+        stroke-dashoffstet: -20%;
+        fill: #674188
+    }
+
+}
+
+.contact h1 {
+    color: #674188;
 }

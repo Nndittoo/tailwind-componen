@@ -405,10 +405,10 @@ svg text {
 
     font-family: "Agbalumo", system-ui;
     letter-spacing: 1px;
-    stroke: #000000d2;
-    font-size: 150px;
+    stroke: #000000;
+    font-size: 180px;
     font-weight: 700;
-    stroke-width: .5;
+    stroke-width: 1;
     animation: textAnimate 4s infinite alternate;
 
 }
@@ -430,4 +430,115 @@ svg text {
 
 .contact h1 {
     color: #674188;
+}
+
+@media screen and (min-width:415px) and (max-width: 1000px) {
+    .ui {
+        font-size: 70px;
+    }
+
+    .grud {
+        flex-direction: column;
+    }
+
+    .oneP {
+        width: 100%;
+        height: 45%;
+    }
+
+    .twoP {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 49%;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .seratus {
+        height: 110vh;
+    }
+
+    .two {
+        height: 100%;
+        width: 49%;
+    }
+
+    .three {
+        display: none;
+    }
+
+    .one img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .email {
+        margin: 5px 0px;
+    }
+
+    svg text {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width :414px){
+    .ui {
+        font-size: 50px;
+    }
+
+    .grud {
+        flex-direction: column;
+    }
+
+    .oneP {
+        width: 100%;
+        height: 45%;
+    }
+
+    .twoP {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 49%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .seratus {
+        height: 100vh;
+    }
+
+    .two {
+        height: 100%;
+        width: 49%;
+    }
+
+    .three {
+        display: none;
+    }
+
+    .one img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .email {
+        margin: 5px 0px;
+    }
+
+    svg text {
+        font-size: 70px;
+    }
+
+    .email h3{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .two p{
+        font-size: 14px;
+    }
+
+    .loww p{
+        margin: 0px 50px;
+    }
 }

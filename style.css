@@ -527,18 +527,25 @@ svg text {
 
     svg text {
         font-size: 70px;
+        animation: textAnimate 2s infinite alternate;
     }
 
     .email h3{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 20px;
     }
 
     .two p{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .loww p{
         margin: 0px 50px;
+    }
+
+    .buaton {
+        margin-top: 20px;
+        width: 80%;
+        height: 50px;
     }
 }
